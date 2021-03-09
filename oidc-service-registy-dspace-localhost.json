@@ -3,6 +3,8 @@
   "clientId": "client2",
   "clientSecret": "secret2",
   "serviceId" : "http://localhost:8080/server/api/authn/oidc",
+  "logoutType" : "FRONT_CHANNEL",
+  "logoutUrl" : "http://localhost:4000/logout",
   "implicit": true,
   "signIdToken": true,
   "idTokenSigningAlg": "RS256",
